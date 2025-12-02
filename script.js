@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   document.querySelector("#result").innerHTML = "<h1>made by 69rem</h1>";
 
   const getWeather = () => {
-    const city = document.getElementById("cityInput").value;
+    const city = document.getElementById("cityInput").value.trim();
     const result = document.getElementById("result");
 
     const API_KEY = "3b29decf0884c4362549677210e698a5";
