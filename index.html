@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Прогноз погоды</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>🌤 Прогноз погоды</h1>
+        <p>Узнайте текущую погоду в любом городе мира</p>
+      </div>
+
+      <div class="search-box">
+        <input
+          type="text"
+          id="cityInput"
+          placeholder="Введите город"
+          autocomplete="off"
+        />
+        <button id="btn">Узнать погоду</button>
+      </div>
+
+      <div id="result" class="weather-result"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
